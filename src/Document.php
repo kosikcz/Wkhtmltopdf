@@ -259,7 +259,7 @@ class Document extends Object implements IResponse
 		}
 
 		$m = $this->margin;
-		$cmd = self::$executable . ' -q --disable-smart-shrinking --disable-internal-links'
+		$cmd = self::$executable . ' -q --disable-internal-links'
 			. ' -T ' . escapeshellarg($m[0])
 			. ' -R ' . escapeshellarg($m[1])
 			. ' -B ' . escapeshellarg($m[2])
