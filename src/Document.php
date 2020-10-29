@@ -10,8 +10,7 @@
 
 namespace Kdyby\Wkhtmltopdf;
 
-use Nette\Object,
-	Nette\Application\IResponse,
+use Nette\Application\IResponse,
 	Nette\Http,
 	Nette\InvalidStateException;
 
@@ -22,7 +21,7 @@ use Nette\Object,
  *
  * @author Ladislav Marek <ladislav@marek.su>
  */
-class Document extends Object implements IResponse
+class Document implements IResponse
 {
 
 	/** @var string	NULL means autodetect */

@@ -10,13 +10,10 @@
 
 namespace Kdyby\Wkhtmltopdf;
 
-use Nette\Object;
-
-
 /**
  * @author Ladislav Marek <ladislav@marek.su>
  */
-class PageMeta extends Object implements IDocumentPart
+class PageMeta implements IDocumentPart
 {
 
 	/** @var string */

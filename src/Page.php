@@ -10,13 +10,10 @@
 
 namespace Kdyby\Wkhtmltopdf;
 
-use Nette\Object;
-
-
 /**
  * @author Ladislav Marek <ladislav@marek.su>
  */
-class Page extends Object implements IDocumentPart
+class Page implements IDocumentPart
 {
 	/** @var string */
 	public $file;
