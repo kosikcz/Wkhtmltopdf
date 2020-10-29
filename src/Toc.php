@@ -10,13 +10,10 @@
 
 namespace Kdyby\Wkhtmltopdf;
 
-use Nette\Object;
-
-
 /**
  * @author Ladislav Marek <ladislav@marek.su>
  */
-class Toc extends Object implements IDocumentPart
+class Toc implements IDocumentPart
 {
 
 	/** @var string */
